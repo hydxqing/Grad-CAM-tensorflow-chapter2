@@ -1,0 +1,1 @@
+To use ResNet-v1-50 or ResNet-v1-101, download weight from https://github.com/tensorflow/models/tree/master/research/slim
