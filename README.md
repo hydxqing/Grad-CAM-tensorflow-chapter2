@@ -13,7 +13,7 @@ I learned from the [code](https://github.com/insikk/Grad-CAM-tensorflow) from [i
 ## Notes
 
 1. As mentioned in the paper: Grad-CAM use the gradient information flowing into the last convolutional layer of CNN to understand the importance of each neuron for a decision of interest. 
-###### First, Grad-CAM guided backpropagtion calculates the gradient value of the final convolution layer for a certain class with the trained model. Then, take the global average of the gradient maps (C H W) obtained to generate the weight (C) of each feature map. Finally, a weighted sum operation are performed between the weight and the corresponding feature map.
+##### First, Grad-CAM guided backpropagtion calculates the gradient value of the final convolution layer for a certain class with the trained model. Then, take the global average of the gradient maps (C H W) obtained to generate the weight (C) of each feature map. Finally, a weighted sum operation are performed between the weight and the corresponding feature map.
 In addition, the paper also mentioned that they added a ReLU to the final weighted sum, because we are only interested in the features that have a positive influence on the class of interest.
 
 2. Grad-cam can be used with any other CNN models. Just modify convolution layer in code. At the same time, it can be used for localization in weak supervised segmentation, such as [SEC](https://arxiv.org/abs/1603.06098).
