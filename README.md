@@ -1,6 +1,6 @@
 # Grad-CAM-tensorflow-chapter2
 
-Thｅ chapter2 of the segmentation network summary: Look at the problem through the essence．
+The chapter2 of the segmentation network summary: Look at the problem through the essence．
 
 External links: Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization [paper](https://arxiv.org/abs/1610.02391).
 
