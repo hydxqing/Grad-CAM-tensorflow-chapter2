@@ -1,15 +1,16 @@
 # Grad-CAM-tensorflow-chapter2
 
-The chapter2 of the segmentation network summary: Look at the problem through the essence．
+The chapter2 of the segmentation network summary: 
+### Look at the problem through the essence．
 
 External links: Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization [paper](https://arxiv.org/abs/1610.02391).
 
-This paper is an interesting paper. In the paper, a interpretation method of convolutional neural network is introduced. Through the construction of a heatmap-like format, the features learned by the convolutional neural network are presented intuitively. I noticed this because the winner of the image algorithm group of the 2018 AI FEATURE challenge used the method of this paper.
+##### This paper is an interesting paper. In the paper, a interpretation method of convolutional neural network is introduced. Through the construction of a heatmap-like format, the features learned by the convolutional neural network are presented intuitively. I noticed this because the winner of the image algorithm group of the 2018 AI FEATURE challenge used the method of this paper.
 
 
 I learned from the [code](https://github.com/insikk/Grad-CAM-tensorflow) from [insikk](https://github.com/insikk) to complete my experiment.
 
-# Notes
+## Notes
 
 1. As mentioned in the paper: Grad-CAM use the gradient information flowing into the last convolutional layer of CNN to understand the importance of each neuron for a decision of interest. 
 
