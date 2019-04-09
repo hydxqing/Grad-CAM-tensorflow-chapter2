@@ -6,7 +6,7 @@ External links: Grad-CAM: Visual Explanations from Deep Networks via Gradient-ba
 
  This paper is an interesting paper. In the paper, a interpretation method of convolutional neural network is introduced. Through the construction of a heatmap-like format, the features learned by the convolutional neural network are presented intuitively. I noticed this because the winner of the image algorithm group of the 2018 AI FEATURE challenge used the method of this paper.
 
-**References**
+*** References ***
 
 This code borrows from [insikk](https://github.com/insikk)'s [work](https://github.com/insikk/Grad-CAM-tensorflow) and is modified to use on my own dataset.
 
